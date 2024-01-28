@@ -380,3 +380,8 @@ PRODUCT_PACKAGES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/duchamp/duchamp-vendor.mk)
+
+
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.pixel.maintainer=Ravinder_Rohilla
