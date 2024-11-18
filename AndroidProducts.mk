@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_duchamp.mk
+    $(LOCAL_DIR)/voltage_duchamp.mk
