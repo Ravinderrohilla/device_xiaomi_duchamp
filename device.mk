@@ -253,7 +253,7 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     mediatek-services \
-    mediatek-carrier-config 
+    mediatek-carrier-config-manager
 
 PRODUCT_PACKAGES += \
     xiaomi-telephony-stub
