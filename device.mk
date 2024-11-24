@@ -244,7 +244,14 @@ PRODUCT_COPY_FILES += \
 
 # Radio (IMS)
 PRODUCT_BOOT_JARS += \
-    xiaomi-telephony-stub
+    xiaomi-telephony-stub \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common
 
 PRODUCT_PACKAGES += \
     xiaomi-telephony-stub
@@ -279,6 +286,13 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.recovery.mt6897.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.mt6897.rc
+
+#ril testing
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.6.vendor \
+    android.hardware.radio.config@1.3.vendor \
+    android.hardware.secure_element@1.2.vendor
+
 
 # Sensors
 PRODUCT_PACKAGES += \
