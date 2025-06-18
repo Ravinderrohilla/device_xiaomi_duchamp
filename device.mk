@@ -164,6 +164,9 @@ $(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
+# MIUI Camera
+$(call inherit-product, device/xiaomi/duchamp-miuicamera/device.mk)
+ 
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
