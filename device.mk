@@ -69,7 +69,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Audio
 $(call soong_config_set,android_hardware_audio,run_64bit,true)
-TARGET_EXCLUDES_AUDIOFX := true
+TARGET_EXCLUDES_AUDIOFX := false
 
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
@@ -165,8 +165,11 @@ PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
 # MIUI Camera
-$(call inherit-product, device/xiaomi/duchamp-miuicamera/device.mk)
+#$(call inherit-product, device/xiaomi/duchamp-miuicamera/device.mk)
  
+#Gcam
+-include vendor/mgc/config.mk
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
