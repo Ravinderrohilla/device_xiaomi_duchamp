@@ -20,21 +20,4 @@
     <dimen name="status_bar_height_default">110.0px</dimen>
     <dimen name="status_bar_height_portrait">110.0px</dimen>
 
-     <!-- Preference fragment padding, sides -->
-    <dimen name="preference_fragment_padding_side">6dp</dimen>
-
-<!-- The standard size (both width and height) of an application icon that
-         will be displayed in the app launcher and elsewhere. -->
-    <dimen name="app_icon_size">64dip</dimen>
-
-<dimen name="status_bar_icon_size">25dip</dimen>
-    <!-- New sp height of notification icons in the status bar  -->
-    <dimen name="status_bar_icon_size_sp">25sp</dimen>
-    <!-- Desired size of system icons in status bar. -->
-    <dimen name="status_bar_system_icon_size">22dp</dimen>
-    <!-- Intrinsic size of most system icons in status bar. This is the default value that
-         is used if a Drawable reports an intrinsic size of 0. -->
-    <dimen name="status_bar_system_icon_intrinsic_size">22dp</dimen>
-    <!-- Size of the giant number (unread count) in the notifications -->
-
 </resources>
